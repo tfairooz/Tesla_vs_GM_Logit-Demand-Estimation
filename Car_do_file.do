@@ -1,6 +1,3 @@
-** Import Car_data
-import delimited "/Users/tahsinfairooz/Desktop/MA Courses/Academics/Szabo_IO/Car_HW2/car_data.csv", clear
-
 ** to compute Market Share from the market size(which in this case is the total number of cars sold in US. iow, the total number of consumers)
 gen marketshare = quantity/250000000
 gen log_sj = ln(marketshare)
